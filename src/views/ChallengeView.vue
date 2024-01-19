@@ -104,5 +104,6 @@ onMounted(checkSession)
                     </div>
                 </div>
             </div>
+            <RouterLink :to="'/' " class="btn btn-secondary">Return Main Page</RouterLink>
     </div>
 </template>

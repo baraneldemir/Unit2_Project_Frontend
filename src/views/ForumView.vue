@@ -113,6 +113,6 @@ onMounted(() => {
             <h5></h5>
             <AddQuestion :fetchData="fetchData" />
         </div>
-        <RouterLink :to="'/login' " class="btn btn-secondary">Return Main Page</RouterLink>
+        <RouterLink :to="'/' " class="btn btn-secondary">Return Main Page</RouterLink>
     </div>
 </template>
