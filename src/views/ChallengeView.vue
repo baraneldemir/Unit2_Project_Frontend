@@ -102,12 +102,9 @@ onMounted(checkSession)
             <div class="container">
                 <div class="card-body">
                     <h5 class="card-title">Want to challenge court?</h5>
-                    <p class="card-text">You'll have to pay a £100 fine and have 3 points added to your licence, unless
-                        you're given the option to attend a speed awareness course. If you pay the fine, how you pay depends
-                        on where you were caught speeding. You can: pay the fine online in England and Wales or check the
-                        ticket for other ways to pay.</p>
-                    <a href="https://penaltynotice.homeoffice.gov.uk/" class="btn btn-secondary">Pay through government
-                        website</a>
+                    <p class="card-text">Can you appeal a speeding ticket?
+Yes, you can appeal a speeding ticket, but this doesn't automatically mean that you should. Unless you are sure that you were given the ticket unlawfully or by mistake, you should consider whether it's worth appealing and whether you even have reasonable grounds for doing so.</p>
+                    <RouterLink :to="'/'" class="btn btn-secondary">I have read and want to continue</RouterLink>
                 </div>
                 <div class="col-md-4">
                 <label for="inputState" class="form-label">The Fine Amount</label>

@@ -4,6 +4,7 @@ import LoginFormView from '@/views/LoginFormView.vue'
 import ForumView from '@/views/ForumView.vue'
 import PayView from '@/views/PayView.vue'
 import ChallengeView from '@/views/ChallengeView.vue'
+import CommentEditView from '@/views/CommentEditView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +35,12 @@ const router = createRouter({
       name: 'loginChallenge',
       component: ChallengeView
     },
+    {
+      path:'/comments/update/:id',
+      name: 'editcomments',
+      component: CommentEditView
+    },
+    
     
   ]
 })

@@ -109,6 +109,7 @@ onMounted(() => {
             <li  class="bg-light p-2" style="--bs-bg-opacity: .25" v-for="comment in commentsBe" :key="comment.id" >
                 <h6>Title: {{ comment.title }} <br> Question: {{ comment.text }}</h6> &nbsp;
                 <button v-if="isLoggedIn" class="btn btn-secondary" @click="deleteComment(comment._id)">Delete Thread</button>
+                <RouterLink v-if="isLoggedIn" :to="'/comments/update/'+ comment._id" class="btn btn-secondary">Edit Comment</RouterLink>
             </li>
         </ul>
         <hr>
