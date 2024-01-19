@@ -9,9 +9,9 @@ import { decodeCredential, googleLogout} from 'vue3-google-login'
 <template>
   <div class="bg-image" style="background-image: url('https://images.unsplash.com/photo-1530685932526-48ec92998eaa?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         height: 100vh">
-    <h3 class="bg-light p-4" style="--bs-bg-opacity: .5; text-align: center">Form View Page</h3>
+    <h3 class="bg-light p-4" style="--bs-bg-opacity: .5; text-align: center">Form Screen</h3>
     
-    <h3  class="bg-light p-4" style="--bs-bg-opacity: .5; text-align: center">If you would like to seek more advice from one of our solicitors please fill out the form. One of us will be back with you shortly.</h3>
+    <h4  class="bg-light p-4" style="--bs-bg-opacity: .5;">If you would like to seek more advice from one of our solicitors, please fill out the form. One of us will be back with you shortly.</h4>
     <form class="row g-3">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
@@ -19,7 +19,7 @@ import { decodeCredential, googleLogout} from 'vue3-google-login'
   </div>
   <div class="col-md-6">
     <label for="inputPassword4" class="form-label">Full Name</label>
-    <input type="password" class="form-control" id="inputPassword4" placeholder="Your Full Name">
+    <input type="text" class="form-control" id="inputPassword4" placeholder="Your Full Name">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address</label>

@@ -74,8 +74,8 @@ onMounted(checkSession)
                         are logged in as {{ userName }}
                     </span>
                 </li>
-                <li class="breadcrumb-item">Home
-                    <RouterLink :to="'/login/forum'">Forum Page</RouterLink>
+                <li class="breadcrumb-item">
+                    <RouterLink :to="'/'">Home</RouterLink>
                 </li>
                 <li class="breadcrumb-item">
                     <RouterLink :to="'/login/forum'">Forum Page</RouterLink>
@@ -89,7 +89,6 @@ onMounted(checkSession)
                 <li class="breadcrumb-item">
                     <RouterLink :to="'/login/form'">Challenge a ticket</RouterLink>
                 </li>
-
             </ol>
         </nav>
         <hr>
@@ -120,7 +119,7 @@ onMounted(checkSession)
                         <h5 class="card-title">Want to challenge court?</h5>
                         <p class="card-text">Challenge court but do not know which one to apply for? If you get an FPN you
                             can choose to plead guilty or not guilty.</p>
-                        <a href="/login/form" class="btn btn-secondary">Challenge court now</a>
+                        <a href="https://tiny-elf-e6e0e5.netlify.app/login/challenge" class="btn btn-secondary">Challenge court now</a>
                     </div>
                 </div>
             </div>
