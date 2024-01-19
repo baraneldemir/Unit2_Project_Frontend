@@ -62,7 +62,7 @@ onMounted(checkSession)
 
 <template>
     <div class="bg-image" style="background-image: url('https://images.unsplash.com/photo-1530685932526-48ec92998eaa?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-        height: 100vh">
+        height: 100%">
         
         <h1 class="bg-light p-4" style="--bs-bg-opacity: .25; text-align: center">Speeding Fine App</h1>
         <nav aria-label="breadcrumb" class="bg-light p-2" style="--bs-bg-opacity: .25; text-align: center">
