@@ -56,9 +56,9 @@ import { decodeCredential, googleLogout} from 'vue3-google-login'
     </div>
   </div>
   <div class="col-12">
-    <button type="submit" class="btn btn-primary">Submit the form</button>
+    <button type="submit" class="btn btn-secondary">Submit the form</button>
   </div>
-  <RouterLink :to="'/'">Return Main Page</RouterLink>
+  <RouterLink :to="'/'" class="btn btn-secondary">Return Home Page</RouterLink>
 </form>
 </div>
 

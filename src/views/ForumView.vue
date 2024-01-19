@@ -64,6 +64,7 @@ onMounted(() => {
         <h1 class="bg-light p-4" style="--bs-bg-opacity: .25; text-align: center">Welcome to Forum</h1>
         <nav aria-label="breadcrumb" class="bg-light p-2" style="--bs-bg-opacity: .25; text-align: center">
             <ol class="breadcrumb">
+                <div class="navbar navbar-expand-lg">
                 <li class="breadcrumb-item" >
                     <span v-if="isLoggedIn"
                         class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill">
@@ -71,19 +72,22 @@ onMounted(() => {
                         are logged in as {{ userName }}
                     </span>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
-                <li class="breadcrumb-item">
-                    <RouterLink :to="'/login/forum'">Forum Page</RouterLink>
+                <li >
+                    <RouterLink :to="'/'" class="nav-link" >   Home /</RouterLink>
                 </li>
-                <li class="breadcrumb-item">
-                    <RouterLink :to="'/login/form'">Legal aid</RouterLink>
+                <li >
+                    <RouterLink :to="'/login/forum'" class="nav-link">   Forum Page /</RouterLink>
                 </li>
-                <li class="breadcrumb-item">
-                    <RouterLink :to="'/login/form'">Pay</RouterLink>
+                <li >
+                    <RouterLink :to="'/login/form'" class="nav-link">   Legal aid /</RouterLink>
                 </li>
-                <li class="breadcrumb-item">
-                    <RouterLink :to="'/login/form'">Challenge a ticket</RouterLink>
+                <li >
+                    <RouterLink :to="'/login/pay'" class="nav-link">   Pay /</RouterLink>
                 </li>
+                <li >
+                    <RouterLink :to="'/login/form'" class="nav-link">   Challenge a ticket /</RouterLink>
+                </li>
+            </div>
 
             </ol>
         </nav>

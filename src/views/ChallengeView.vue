@@ -62,27 +62,30 @@ onMounted(checkSession)
         <h1 class="bg-light p-4" style="--bs-bg-opacity: .25; text-align: center">Speeding Fine App</h1>
         <nav aria-label="breadcrumb" class="bg-light p-2" style="--bs-bg-opacity: .25; text-align: center">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                    <span v-if="isLoggedIn"
-                        class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill">
-                        <img class="rounded-circle me-1" width="25" height="25" :src="userPicture" alt="">You
-                        are logged in as {{ userName }}
-                    </span>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
-                <li class="breadcrumb-item">
-                    <RouterLink :to="'/login/forum'">Forum Page</RouterLink>
-                </li>
-                <li class="breadcrumb-item">
-                    <RouterLink :to="'/login/form'">Legal aid</RouterLink>
-                </li>
-                <li class="breadcrumb-item">
-                    <RouterLink :to="'/login/form'">Pay</RouterLink>
-                </li>
-                <li class="breadcrumb-item">
-                    <RouterLink :to="'/login/form'">Challenge a ticket</RouterLink>
-                </li>
-
+                <div class="navbar navbar-expand-lg">
+                    <li>
+                        <span v-if="isLoggedIn"
+                            class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill">
+                            <img class="rounded-circle me-1" width="25" height="25" :src="userPicture" alt="">You
+                            are logged in as {{ userName }}
+                        </span>
+                    </li>
+                    <li>
+                        <RouterLink :to="'/'" class="nav-link"> Home /</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink :to="'/login/forum'" class="nav-link"> Forum Page /</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink :to="'/login/form'" class="nav-link"> Legal aid /</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink :to="'/login/pay'" class="nav-link"> Pay /</RouterLink>
+                    </li>
+                    <li>
+                        <RouterLink :to="'/login/form'" class="nav-link"> Challenge a ticket /</RouterLink>
+                    </li>
+                </div>
             </ol>
         </nav>
         <hr>
@@ -96,14 +99,28 @@ onMounted(checkSession)
             <GoogleLogin :callback="callback" />
         </div>
         <div class="col-sm-9 mb-3 mb-sm-0 bg-light p-2" style="--bs-bg-opacity: .25;">
-                <div class="container">
-                    <div class="card-body">
-                        <h5 class="card-title">Want to challenge court?</h5>
-                        <p class="card-text">You'll have to pay a £100 fine and have 3 points added to your licence, unless you're given the option to attend a speed awareness course. If you pay the fine, how you pay depends on where you were caught speeding. You can: pay the fine online in England and Wales or check the ticket for other ways to pay.</p>
-                        <a href="https://penaltynotice.homeoffice.gov.uk/" class="btn btn-secondary">Pay through government website</a>
-                    </div>
+            <div class="container">
+                <div class="card-body">
+                    <h5 class="card-title">Want to challenge court?</h5>
+                    <p class="card-text">You'll have to pay a £100 fine and have 3 points added to your licence, unless
+                        you're given the option to attend a speed awareness course. If you pay the fine, how you pay depends
+                        on where you were caught speeding. You can: pay the fine online in England and Wales or check the
+                        ticket for other ways to pay.</p>
+                    <a href="https://penaltynotice.homeoffice.gov.uk/" class="btn btn-secondary">Pay through government
+                        website</a>
                 </div>
+                <div class="col-md-4">
+                <label for="inputState" class="form-label">The Fine Amount</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Less than 100£</option>
+                    <option>Between 100 to 200£</option>
+                    <option>Between 200 to 500£</option>
+                    <option>More than 500£</option>
+                </select>
             </div>
-            <RouterLink :to="'/' " class="btn btn-secondary">Return Main Page</RouterLink>
-    </div>
-</template>
+            </div>
+            
+        </div>
+    <RouterLink :to="'/' " class="btn btn-secondary">Return Main Page</RouterLink>
+</div></template>
