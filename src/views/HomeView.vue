@@ -88,7 +88,7 @@ onMounted(checkSession)
                     <RouterLink :to="'/login/pay'" class="nav-link">   Pay /</RouterLink>
                 </li>
                 <li >
-                    <RouterLink :to="'/login/form'" class="nav-link">   Challenge a ticket /</RouterLink>
+                    <RouterLink :to="'/login/challenge'" class="nav-link">   Challenge a ticket /</RouterLink>
                 </li>
             </div>
             </ol>
