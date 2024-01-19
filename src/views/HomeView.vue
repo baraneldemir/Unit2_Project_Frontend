@@ -74,7 +74,9 @@ onMounted(checkSession)
                         are logged in as {{ userName }}
                     </span>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item">Home
+                    <RouterLink :to="'/login/forum'">Forum Page</RouterLink>
+                </li>
                 <li class="breadcrumb-item">
                     <RouterLink :to="'/login/forum'">Forum Page</RouterLink>
                 </li>
@@ -108,7 +110,7 @@ onMounted(checkSession)
                         <h5 class="card-title">How to pay your speeding ticket online?</h5>
                         <p class="card-text">Pay the fine online in England and Wales or check the ticket for other ways to
                             pay. You may be given the option of attending a speed awareness course</p>
-                        <a href="/login/pay" class="btn btn-secondary">Pay now</a>
+                        <a href="https://tiny-elf-e6e0e5.netlify.app/login/pay" class="btn btn-secondary">Pay now</a>
                     </div>
                 </div>
             </div>
