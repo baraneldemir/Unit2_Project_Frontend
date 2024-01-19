@@ -74,19 +74,19 @@ onMounted(checkSession)
                         are logged in as {{ userName }}
                     </span>
                 </li>
-                <li class="breadcrumb-item">
+                <li class="breadcrumb-item nav-link">
                     <RouterLink :to="'/'">Home</RouterLink>
                 </li>
-                <li class="breadcrumb-item">
+                <li class="breadcrumb-item nav-link">
                     <RouterLink :to="'/login/forum'">Forum Page</RouterLink>
                 </li>
-                <li class="breadcrumb-item">
+                <li class="breadcrumb-item nav-link">
                     <RouterLink :to="'/login/form'">Legal aid</RouterLink>
                 </li>
-                <li class="breadcrumb-item">
+                <li class="breadcrumb-item nav-link">
                     <RouterLink :to="'/login/pay'">Pay</RouterLink>
                 </li>
-                <li class="breadcrumb-item">
+                <li class="breadcrumb-item nav-link">
                     <RouterLink :to="'/login/form'">Challenge a ticket</RouterLink>
                 </li>
             </ol>
