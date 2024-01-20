@@ -64,7 +64,7 @@ onMounted(checkSession)
     <div class="bg-image" style="background-image: url('https://images.unsplash.com/photo-1530685932526-48ec92998eaa?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         height: 100vh" >
         
-        <h1 class="bg-light p-4" style="--bs-bg-opacity: .25; text-align: center">Speeding Fine App</h1>
+        <h1 class="bg-light p-4" style="--bs-bg-opacity: .25; text-align: center">SpeedyFine</h1>
         <nav aria-label="breadcrumb" class="bg-light p-2" style="--bs-bg-opacity: .25; text-align: center">
             <ol class="breadcrumb">
                 <div class="navbar navbar-expand-lg">
@@ -111,7 +111,7 @@ onMounted(checkSession)
                         <h5 class="card-title">How to pay your speeding ticket online?</h5>
                         <p class="card-text">Pay the fine online in England and Wales or check the ticket for other ways to
                             pay. You may be given the option of attending a speed awareness course</p>
-                        <a href="https://tiny-elf-e6e0e5.netlify.app/login/pay" class="btn btn-secondary">Pay now</a>
+                        <a href="https://speedyfine.netlify.app/login/pay" class="btn btn-secondary">Pay now</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ onMounted(checkSession)
                         <h5 class="card-title">Want to challenge court?</h5>
                         <p class="card-text">Challenge court but do not know which one to apply for? If you get an FPN you
                             can choose to plead guilty or not guilty.</p>
-                        <a href="https://tiny-elf-e6e0e5.netlify.app/login/challenge" class="btn btn-secondary">Challenge court now</a>
+                        <a href="https://speedyfine.netlify.app/login/challenge" class="btn btn-secondary">Challenge court now</a>
                     </div>
                 </div>
             </div>
