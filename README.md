@@ -1,4 +1,4 @@
-# <img src="/assets/car.png" alt="car" style="width:40px;height:40px;margin-top:5px"/> Project-1: SpeedyFine 
+# <img src="assets/car.png" alt="car" style="width:40px;height:40px;margin-top:5px"/> Project-1: SpeedyFine 
 
 #### General Assembly SEI Project-2 | SpeedyFine | Vanilla JavaScript, HTML & CSS | 1-week | Solo project
 
