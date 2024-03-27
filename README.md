@@ -171,14 +171,14 @@ function LoadCommentData () {
 <p>After having full CRUD functionality I have added some front end styling and some information that users might find useful. Last but not least, I deployed with netlify</p>
 
 
-### Challenges
+## Challenges
 
 The most challenging part was loading the single comments to edit. I had to try a couple of different approaches and ended up structuring it by having an another page to edit the comment. 
 I had some bugs with authorisation along the way. It was not displaying anything when the user was logged in. I have solved the problem by refacturing the code again and going step by step.
 Also adding structural information to the website is more time consuming than what I have planned initially.
 
 
-### Wins
+## Wins
 
 The biggest win I had with this project was getting comfartable with autharisations and using different AUTH api's to handle and implementing this feature to the site.
 Other than that, seeing a web application that you created for the first time and seeing your friends or other people using it was a great pleasure to see and motivated me for the future applications.
