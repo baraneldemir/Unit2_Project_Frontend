@@ -183,7 +183,7 @@ Also adding structural information to the website is more time consuming than wh
 The biggest win I had with this project was getting comfartable with autharisations and using different AUTH api's to handle and implementing this feature to the site.
 Other than that, seeing a web application that you created for the first time and seeing your friends or other people using it was a great pleasure to see and motivated me for the future applications.
 
-## Key learnings
+## Key Learnings
 I feel a lot more comfortable with creating the CRUDS in the backend and fetching them from the frontend at the moment. Everything was quite new when I first started to this project. But this challenging side of getting into new brand thing was really enjoyable. 
 
 ## Future Improvements
