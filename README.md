@@ -2,6 +2,10 @@
 
 #### General Assembly SEI Project-2 | SpeedyFine | Vanilla JavaScript, HTML & CSS | 1-week | Solo project
 
+<img src="assets/home.png" alt="homepage" style="border:1px black solid"/>
+
+<img src="assets/forum.png" alt="forumpage" style="border:1px black solid"/>
+
 ## Overview
 
 This web application was made as the final project for Unit 2. It follows a MEVN structure with MongoDB, Express, Vue and Node. My project aim was creating a platform where individuals could gain insights into the various approaches and solutions available when facing speeding or parking tickets. Users would input specific details of their ticket, and the site would provide guidance, highlighting deadlines and potential solutions. I wanted to have Google authorisation API for user authentication, and featuring a forum chat where users can comment and seek assistance. 
